@@ -50,11 +50,11 @@ a:link {
 body {
 	margin: 0;
 	background-color: #28231d;
+	font-family: "Roboto";
 }
 
 h1 {
 	text-align: center;
-	font-family: "Roboto";
 }
 .heading-creater {
 	margin: auto;
@@ -62,4 +62,15 @@ h1 {
 	height: 3rem;
 	border-radius: 6rem;
 	background-color: whitesmoke;
+}
+.lackof-content {
+	width: 22.5rem;
+	height: 4rem;
+	border-radius: 3rem;
+	margin: 10rem auto 10rem auto;
+	background-color: whitesmoke;
+}
+.para-loc {
+	padding-top: 1rem;
+	text-align: center;
 }
