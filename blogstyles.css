@@ -12,6 +12,7 @@ nav {
 	height: 5rem;
 	margin: 0;
 	padding: 0px;
+	width: 100%;
 }
 li {
 	position: relative;
@@ -46,56 +47,19 @@ a:link {
 	font-size: 2.2rem;
 }
 
-/* .about {
-	border-right: solid 3px black;
-	border-left: solid 3px black;
-} */
-
 body {
 	margin: 0;
 	background-color: #28231d;
 }
 
-.aboutpage {
-	display: inline;
-	width: 100%;
-	height: 80%;
-}
-
-.portfolio-box {
-	animation: box-animation 1s;
-	background-color: whitesmoke;
-	border-radius: 4px;
-	box-shadow: 10px 10px;
-	height: 30rem;
-	margin: 8% auto auto auto;
-	width: 25rem;
-	text-align: center;
-}
-
-.portfolio-box p {
-	padding: 5px;
-	font-family: "Roboto";
-	font-size: 20px;
-}
-
-.pfp {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	object-fit: cover;
-	margin: 3% auto 0 auto;
-}
 h1 {
-	font-family: "Roboto";
 	text-align: center;
+	font-family: "Roboto";
 }
-
-@keyframes box-animation {
-	from {
-		transform: translate(-50rem);
-	}
-	to {
-		transform: translate(0px);
-	}
+.heading-creater {
+	margin: auto;
+	width: 12rem;
+	height: 3rem;
+	border-radius: 6rem;
+	background-color: whitesmoke;
 }
