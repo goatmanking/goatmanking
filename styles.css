@@ -94,33 +94,33 @@ h1 {
 	font-size: 20px;
 }
 .amatuer {
-	animation: 2s infinite alternate rainbox-effect-animation;
+	animation: 5s infinite alternate rainbox-effect-animation;
 }
 
 @keyframes rainbox-effect-animation {
-	1% {
+	15% {
 		color: red;
 	}
-	5% {
-		color: pink;
+	20% {
+		color: orange;
 	}
-	15% {
-		color: peru;
+	35% {
+		color: yellow;
 	}
-	25% {
-		color: aqua;
-	}
-	45% {
-		color: blueviolet;
+	50% {
+		color: green;
 	}
 	65% {
-		color: brown;
+		color: blue;
 	}
-	85% {
-		color: yellowgreen;
+	80% {
+		color: indigo;
+	}
+	95% {
+		color: violet;
 	}
 	100% {
-		linear-gradient: black;
+		color: palevioletred;
 	}
 }
 
