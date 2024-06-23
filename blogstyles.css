@@ -8,7 +8,7 @@ nav {
 	margin: auto;
 }
 .navbarContainer {
-	background-color: #dea107;
+	background-color: #161a30;
 	height: 5rem;
 	margin: 0;
 	padding: 0px;
@@ -34,7 +34,7 @@ a:link {
 }
 .navbarwa a:hover {
 	cursor: pointer;
-	text-decoration: underline #6b5428;
+	text-decoration: underline #dc5f00;
 	text-underline-offset: 20px;
 }
 .navbarwa .about:hover {
@@ -49,7 +49,7 @@ a:link {
 
 body {
 	margin: 0;
-	background-color: #28231d;
+	background-color: #31304d;
 	font-family: "Roboto";
 }
 
