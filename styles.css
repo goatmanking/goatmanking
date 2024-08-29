@@ -22,7 +22,7 @@ li {
 	display: inline;
 	font-size: 2rem;
 	font-weight: 500;
-	font-family: "Tiny5";
+	font-family: "Arial";
 }
 li a,
 a:link {
@@ -82,7 +82,7 @@ body {
 }
 
 h1 {
-	font-family: "Roboto";
+	font-family: "Arial";
 	text-align: center;
 	padding-bottom: 1rem;
 	border-bottom: 0.01rem solid black;
@@ -90,7 +90,7 @@ h1 {
 
 .portfolio-box p {
 	padding: 0px;
-	font-family: "Roboto";
+	font-family: "Arial";
 	font-size: 20px;
 }
 .amatuer {
