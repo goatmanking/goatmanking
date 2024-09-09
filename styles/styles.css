@@ -1,28 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap");
 html {
 	font-family: Arial, Helvetica, sans-serif;
+	height: 100%;
+}
+
+body {
+	overflow: hidden;
+	/* hides scrollbar*/
 	background-image: url("../assets/stars.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
 }
 
 h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 }
-#center-image {
-	width: 40%;
-	padding-left: 8rem;
-	height: 70%;
-	margin: 10rem auto 10rem auto;
-	border-radius: 50%;
+
+.main_container {
+	background-color: white;
+	border-radius: 3%;
+	width: 20rem;
+	height: 20rem;
+	margin: 7rem auto;
 }
-#main_image_id {
-	width: 70%;
-	height: 70%;
+
+.main_container h1 {
+	font-family: "Handjet", sans-serif;
+	font-size: 1rem;
+	padding-top: 1rem;
+	padding-bottom: none;
+}
+
+#main_container_line {
+	border: none;
+	border-bottom: 5px solid #05122d;
+}
+
+.main_container p {
+	padding: 1rem;
+	padding-top: 2rem;
+	text-align: center;
+	font-size: 1rem;
+}
+
+#footer span {
+	font-size: 0.6rem;
+	font-style: monospace;
+	color: grey;
+	padding-left: 30%;
+}
+
+#footer img {
 	border-radius: 50%;
+	margin-top: 15%;
+	margin-left: 90%;
+	width: 20px;
+	height: 20px;
 }
 
 .trinity {
-	width: 100%;
-	height: 50%;
-	padding-left: 40%;
-	transform: translateY(-8rem);
+	width: 40%;
+	height: 2.5rem;
+	display: flex;
+	float: left;
+	justify-content: space-around;
+	margin-top: 5%;
+	margin-left: 30%;
+}
+.trinity button {
+	color: white;
+	background-color: #05122d;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont;
+	font-size: 1rem;
+	font-weight: bold;
+	border: 0.1rem solid #39ff14;
+
+	border-radius: 0.5rem;
+	box-shadow: inset 0 0 0.5rem #39ff14, 0 0 0.5rem #39ff14;
+	width: 10rem;
+}
+
+.trinity button:hover {
+	color: white;
+	background-color: #39ff14;
 }
